@@ -2,6 +2,8 @@ import { Header } from "@/components/Header";
 import { Container } from "./style";
 import Image from "next/image";
 
+
+
 export function PrincipalSection() {
     return (
         <div>
