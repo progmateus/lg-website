@@ -13,6 +13,7 @@ export function BenefitsSection() {
             <Benefits>
                 <div>
                     <Image
+                        id="undraw_savings_money"
                         src="/undraw_savings_money.svg"
                         alt="LG Logo"
                         width={166}
@@ -31,6 +32,7 @@ export function BenefitsSection() {
 
                 <div>
                     <Image
+                        id="undraw_time_management"
                         src="/undraw_time_management.svg"
                         alt="LG Logo"
                         width={166}
@@ -49,6 +51,7 @@ export function BenefitsSection() {
 
                 <div>
                     <Image
+                        id="undraw_security"
                         src="/undraw_security.svg"
                         alt="undraw_security.svg"
                         width={167}
