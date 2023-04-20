@@ -78,7 +78,7 @@ export const ModalService = styled.div`
         }
 
 
-        @media screen and (max-width: 975px) {
+        @media screen and (max-width: 1200) {
                 max-width: 100%;
                 height: 14rem;
                 margin: 1rem 0;

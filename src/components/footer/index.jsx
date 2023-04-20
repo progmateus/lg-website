@@ -19,7 +19,7 @@ export function Footer() {
             </div>
 
             <div>
-                <h2> INFORMAÇÕES DE CONTATO </h2>
+                <h2> CONTATO </h2>
                 <ul>
                     <li> Telefone: (11) 4002-8922 </li>
                     <li> E-mail: lgltechnology@gmail.com </li>

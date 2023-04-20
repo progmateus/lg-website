@@ -9,7 +9,7 @@ export const Container = styled.footer`
     flex-wrap: wrap;
 
     > div{
-        flex: 1 1 20rem;
+        flex: 1 1 8rem;
         /* background-color: ${function (props) { return props.theme.colors.ctaColor }}; */
         margin: 0 1rem;
         color: rgb(242, 245, 249, 70%);
@@ -17,6 +17,7 @@ export const Container = styled.footer`
 
         :first-child{
             //div with logo
+            flex: 1 1 16rem;
             height: 8rem;
 
             img{
@@ -26,39 +27,43 @@ export const Container = styled.footer`
         }
 
 
-        :nth-child(3){
-            /// social
+            :nth-child(3){
+                /// social
 
-            h2{
-                text-align: center;
-            }
+                h2{
+                    text-align: center;
+                }
 
-            > div{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 1rem;
-            
-            span{
+                > div{
                 display: flex;
-                width: 3rem;
-                height: 3rem;
-                background-color: #FFFFFF;
-                border-radius: 50px;
                 justify-content: center;
                 align-items: center;
-                margin: 0 0.5rem;
+                margin-top: 1rem;
+                
+                span{
+                    display: flex;
+                    width: 3rem;
+                    height: 3rem;
+                    background-color: #FFFFFF;
+                    border-radius: 50px;
+                    justify-content: center;
+                    margin: 0 0.5rem;
 
-                svg{
-                    font-size: 28px;
-                    color: black;
+                    a{
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    svg{
+                        font-size: 28px;
+                        color: black;
+                    }
                 }
             }
         }
-        }
 
         h2{
-            font-size: 24px;
+            font-size: 18px;
             font-weight: 300;
         }
 
@@ -67,6 +72,7 @@ export const Container = styled.footer`
             list-style-type: none;
             color: rgb(242, 245, 249, 100%);
             font-weight: 300;
+            font-size: 14px;
 
             li{
                 & + li {
@@ -79,6 +85,38 @@ export const Container = styled.footer`
     }
 
 
+    @media screen and (max-width: 975px) {
+        padding: 0;
+
+        > div{
+            margin: 1rem 1rem;
+
+            h2{
+                font-size: 14px;
+                font-weight: 300;
+            }
+
+            ul{
+                font-size: 12px;
+            }
+
+            :nth-child(3){
+                /// social
+                > div{
+                
+                span{
+                    width: 2rem;
+                    height: 2rem;
+                    background-color: #FFFFFF;
+
+                    svg{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        }
+    }
 
 
 `;
