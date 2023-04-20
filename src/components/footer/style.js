@@ -85,7 +85,7 @@ export const Container = styled.footer`
     }
 
 
-    @media screen and (max-width: 975px) {
+    @media screen and (max-width: 1200px) {
         padding: 0;
 
         > div{

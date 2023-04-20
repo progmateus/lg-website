@@ -73,7 +73,7 @@ export const Container = styled.section`
 
         }
 
-    @media screen and (max-width: 975px) {
+    @media screen and (max-width: 1200px) {
         flex-direction: column;
         justify-content: flex-start;
         padding: 0;

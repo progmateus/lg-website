@@ -43,7 +43,7 @@ export const Container = styled.header`
 
 
 
-            @media screen and (max-width: 975px) {
+            @media screen and (max-width: 1200px) {
                 justify-content: space-around;
                 padding: 0 1rem;
 

@@ -33,7 +33,7 @@ export const Heading = styled.div`
         }
 
 
-        @media screen and (max-width: 975px) {
+        @media screen and (max-width: 1200px) {
 
             padding: 0 0.5rem;
 
@@ -82,7 +82,7 @@ export const Benefits = styled.div`
         }
     }
 
-    @media screen and (max-width: 975px) {
+    @media screen and (max-width: 1200px) {
         margin-top: 4rem;
         padding: 0;
 
