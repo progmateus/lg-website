@@ -8,7 +8,8 @@ export default function App({ Component, pageProps }) {
       headerColor: '#3F5EAF',
       bodyColor: '#0C207A',
       ctaColor: "#FD7E14",
-      topicServicesColor: " #0D2168"
+      topicServicesColor: " #0D2168",
+      footerColor: "#0B112F"
     }
   }
 

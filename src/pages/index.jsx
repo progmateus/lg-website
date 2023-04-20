@@ -5,6 +5,8 @@ import { PrincipalSection } from '@/components/Sections/Initial'
 import { BenefitsSection } from '@/components/Sections/benefits'
 import { AboutSection } from '@/components/Sections/about'
 import { OurServicesSection } from '@/components/Sections/ourServices'
+import { HireSection } from '@/components/Sections/hire'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +25,8 @@ export default function Home(props) {
           <BenefitsSection />
           <AboutSection />
           <OurServicesSection />
+          <HireSection />
+          <Footer />
         </div>
       </main>
     </>

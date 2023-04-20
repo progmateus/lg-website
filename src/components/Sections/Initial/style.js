@@ -18,6 +18,7 @@ export const Container = styled.section`
                     align-items: center;
                     justify-content: center;
 
+                    user-select: none;
                     width: 14rem;
                     height: 3rem;
                     margin-top: 2rem;
@@ -92,7 +93,6 @@ export const Container = styled.section`
                     width: 20rem;
                     height: 4rem;
                     font-size: 18px;
-                    user-select: none;
                 }
             }
 
